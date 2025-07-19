@@ -1,0 +1,150 @@
+
+.nav-top{
+  background-color: #F0F0F0;
+  height: 2.5em;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-top-menu{
+  gap: 10px;
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 12.5px;
+  font-weight: 500;
+}
+.nav-top-menu li{
+  cursor: pointer;
+}
+#menu-gap{
+  font-weight: 240;
+}
+
+#logo-jordan{
+  margin-left: clamp(1em,3.3vw,3.5em);
+  padding-top: 5px;
+  height: 18px;
+  width: 18px;
+}
+.logo{
+  margin-left: clamp(0.2em, 3.2vw, 3.5em);
+}
+#logo-img{
+  height: 48px;
+  width: 48px;
+}
+
+
+.nav-mid {
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  height: auto;
+  padding-right:  3em;
+  /* width: 100%; */
+}
+
+
+#search {
+  font-size: 17px;
+  color: #707072;
+  height: 33px;
+  width: 160px;
+  border-radius: 24px;
+  border-color: transparent;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-left: 1em;
+}
+#search:hover{
+  background-color: #E5E5E5;
+}
+
+.menus {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 0px;
+  margin-left: 5em;
+  gap: clamp(0.2em, 2.5vw, 2.5em);
+  
+;
+}
+.menus li {
+  position: relative;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+.menus li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #707072;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.2s;
+}
+
+.menus li:hover::after {
+  transform: scaleX(1);
+}
+
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+#nav-icon-right {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+#nav-icon-right:hover {
+  background-color: #E5E5E5;
+  cursor: pointer;
+}
+
+.nav-low{
+  background-color: #F0F0F0;
+  height: 75px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 0;
+}
+#text-1{
+  padding: 1em 0;
+  margin-right: 6em;
+  font-size: 15px;
+  color: #707072;
+  font-weight: 450;
+  font-style: oblique;
+}
+#join-us{
+  text-decoration: underline;
+  font-style: normal;
+  cursor: pointer;
+  color: #4a4a4c;
+  width: 8%;
+  margin: 0 auto;
+  display: inline-block;
+  margin-right: 0.5em;
+}

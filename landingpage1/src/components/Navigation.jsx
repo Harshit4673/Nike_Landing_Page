@@ -1,4 +1,5 @@
 import { Heart, ShoppingCart, Search } from "lucide-react";
+import './Navigation.css';
 
 const Navigation = () => {
   return (
