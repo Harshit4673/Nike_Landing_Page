@@ -1,0 +1,40 @@
+{
+  "slides": [
+    {
+      "src": "./images/caro/airmaxdn.avif",
+      "title": "Air Max Dn"
+    },
+    {
+      "src": "/images/caro/airforce1.avif",
+      "title": "Air Force 1"
+    },
+    {
+      "src": "./images/caro/airzoompegasus.avif",
+      "title": "Zoom Pegasus"
+    },
+    {
+      "src": "./images/caro/blazermid77.avif",
+      "title": "Blazer Mid 77"
+    },
+    {
+      "src": "./images/caro/cortezeasyonse.avif",
+      "title": "Cortez Easyon"
+    },
+    {
+      "src": "./images/caro/metcon6.avif",
+      "title": "Metcon 6"
+    },
+    {
+      "src": "./images/caro/nikedunklow.avif",
+      "title": "Nike Dunk Low"
+    },
+    {
+      "src": "./images/caro/v2krun.avif",
+      "title": "V2K Run"
+    },
+    {
+      "src": "./images/caro/zoomvomero5.avif",
+      "title": "Zoom Vomero 5"
+    }
+  ]
+}
