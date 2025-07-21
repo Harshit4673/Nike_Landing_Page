@@ -1,6 +1,7 @@
 import Carousel from "./components/carousel/Carousel";
 import Featured from "./components/featured/Featured";
 import Football from "./components/football/Football";
+import Footer from "./components/footer/footer";
 import Navigation from "./components/navigation/Navigation";
 import Poster from "./components/poster/poster";
 import {slides} from './data/carouselData.json'
@@ -13,6 +14,7 @@ const App = () => {
       <Featured/>
       <Carousel data={slides}/>
       <Poster/>
+      <Footer/>
     </>
   );
 };

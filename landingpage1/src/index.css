@@ -5,6 +5,7 @@ html, body{
   box-sizing: border-box;
   padding: 0;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
