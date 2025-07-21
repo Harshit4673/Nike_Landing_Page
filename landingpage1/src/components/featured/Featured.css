@@ -1,9 +1,8 @@
-#fe-text{
-    margin: 110px 0 10px 50px;
-    font-size: 20px;
-    font-weight: 500;
+#fe-text {
+  margin: 110px 0 10px 50px;
+  font-size: 20px;
+  font-weight: 500;
 }
-
 
 .image-row {
   display: flex;
@@ -30,14 +29,14 @@
     flex-direction: column;
   }
 }
-.image-overlay-container{
-  position: relative; 
+.image-overlay-container {
+  position: relative;
   width: 100%;
   height: 100%;
 }
-.image-overlay{
+.image-overlay {
   position: absolute;
-  bottom: 0em;  
+  bottom: 0em;
   left: 10em;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -54,19 +53,43 @@
   cursor: pointer;
   pointer-events: auto;
 }
-.image-overlay button:hover{
-  background-color: #EDEADE;
+.image-overlay button:hover {
+  background-color: #edeade;
 }
 
-#image-overlayfe02{
+#image-overlayfe02 {
   left: 14em;
 }
-.image-overlay h3{
+.image-overlay h3 {
   font-size: 17px;
   font-weight: 500;
-
 }
-.image-overlay h4{
+.image-overlay h4 {
   font-size: 14px;
   font-weight: 400;
+}
+
+@media (max-width: 440px) {
+  .image-overlay {
+    left: 25%;
+    top: 58%;
+  }
+  #image-overlayfe02 {
+    left: 35%;
+  }
+  .image-overlay h3 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .image-overlay h4 {
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .image-overlay button{
+    padding: 0.3em 0.6em;
+    font-size: 12px;
+  }
+  .fe03{
+    left: 18%;
+  }
 }

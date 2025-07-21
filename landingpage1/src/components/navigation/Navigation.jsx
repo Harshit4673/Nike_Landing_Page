@@ -60,7 +60,7 @@ const Navigation = () => {
         <div id="text-1">
           <>No matter what you feel like doing today, It’s better as a Member</>
           <br />
-          <div id="join-us">Join Us</div>
+          <div id="join-us">Join&nbsp;Us</div>
         </div>
       </nav>
     </>

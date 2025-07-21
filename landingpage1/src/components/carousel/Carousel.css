@@ -10,11 +10,10 @@
   margin-bottom: 100px;
 }
 
-#shop-text{
-
-    margin: 170px auto 20px 60px;
-    font-weight: 500;
-    font-size: 20px;
+#shop-text {
+  margin: 170px auto 20px 60px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .carousel-slide {
@@ -22,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1.2rem; 
+  gap: 1.2rem;
 }
 
 .slide {
@@ -36,7 +35,6 @@
 
 .slide:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
 }
 
 .arrow {
@@ -44,12 +42,11 @@
   top: 50%;
   transform: translateY(-50%);
   font-size: 2.5rem;
-  color: #BCCCDC;
+  color: #bcccdc;
   cursor: pointer;
   border-radius: 50%;
   padding: 3rem;
   height: 50rem;
-  
 }
 
 .arrow-left {
@@ -60,9 +57,22 @@
   right: 5%;
 }
 .slide-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   position: absolute;
   bottom: 5%;
   margin-left: 7.5rem;
   width: 90%;
+}
+
+@media (max-width: 444px) {
+  .arrow {
+    top: 90%;
+  }
+  .arrow-left {
+    left: 1px;
+  }
+
+  .arrow-right {
+    right: 1px;
+  }
 }

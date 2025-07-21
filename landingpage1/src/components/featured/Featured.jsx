@@ -30,7 +30,7 @@ const Featured = () => {
           <div className="image-col">
             <div className="image-overlay-container">
               <img src="./images/fe03.png" alt="image1" />
-              <div className="image-overlay">
+              <div className="image-overlay fe03">
                 <h4>Own Every Swing</h4>
                 <h3>Tennis</h3>
                 <button id="shop-fe">Shop</button>
