@@ -31,6 +31,7 @@
   border-radius: 8px;
   flex-shrink: 0;
   cursor: pointer;
+  user-select: none;
 }
 
 .slide:hover {
