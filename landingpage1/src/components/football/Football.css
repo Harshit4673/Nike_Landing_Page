@@ -3,6 +3,7 @@
   height: auto;
   width: 100%;
   display: block;
+  filter: brightness(1.3);
 }
 .footballtext{
   text-align: center;

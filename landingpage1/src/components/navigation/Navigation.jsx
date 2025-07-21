@@ -1,5 +1,5 @@
 import { Heart, ShoppingCart, Search } from "lucide-react";
-import './Navigation.css';
+import "./Navigation.css";
 
 const Navigation = () => {
   return (
@@ -37,7 +37,8 @@ const Navigation = () => {
         <div className="nav-right">
           <button id="search">
             {" "}
-            <Search size={20} stroke="black" strokeWidth={1.5} /> Search
+            <Search size={20} stroke="black" strokeWidth={1.5} />
+            <span id="search-text">Search</span>
           </button>
           <Heart
             id="nav-icon-right"

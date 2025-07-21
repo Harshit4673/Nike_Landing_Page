@@ -1,0 +1,42 @@
+.posters{
+    margin: 175px auto 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.pos-img{
+    width: 30%;
+    height: 40vw;
+    cursor:-webkit-grab;
+}
+.pos1{
+    box-shadow: 2px 9px 18px #B9B9B9;
+}
+.pos2{
+    box-shadow: 2px 12px 18px #D4D5D7;
+}
+.pos3{
+    box-shadow: 2px 9px 18px #FA693D;
+}
+#line{
+    width: 96%;
+    margin-bottom: 100px;
+    border: none;
+    height: 0.1rem;
+    background-color: #E5E5E5;
+}
+
+@media(max-width: 758px){
+    .posters{
+        flex-direction: column;
+        gap: 1rem;
+        margin: 125px auto;
+    }
+    .pos-img{
+        width: 95%;
+        height: 105vw;
+    }
+}

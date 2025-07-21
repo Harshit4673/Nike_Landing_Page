@@ -148,3 +148,21 @@
   display: inline-block;
   margin-right: 0.5em;
 }
+@media (max-width: 760px) {
+  #search{
+    width: 38px;
+  }
+  #search-text{
+    display: none;
+  }
+  .nav-right{
+    gap: 0.1em;
+  }
+  .menus{
+    margin-left: 2%;
+    font-size: 2.1vw;
+  }
+  #text-1{
+    padding: 1vh 0;
+  }
+}

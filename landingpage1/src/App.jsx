@@ -1,7 +1,8 @@
-import Carousel from "./components/Carousel";
-import Featured from "./components/featured";
-import Football from "./components/Football";
-import Navigation from "./components/Navigation";
+import Carousel from "./components/carousel/Carousel";
+import Featured from "./components/featured/Featured";
+import Football from "./components/football/Football";
+import Navigation from "./components/navigation/Navigation";
+import Poster from "./components/poster/poster";
 import {slides} from './data/carouselData.json'
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
       <Football />
       <Featured/>
       <Carousel data={slides}/>
-    
+      <Poster/>
     </>
   );
 };
